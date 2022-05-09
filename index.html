@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/ade4a618fc.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="./owlcarousel/css/owl.carousel.css" />
+    <link rel="stylesheet" href="./owlcarousel/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./owlcarousel/css/owl.theme.green.css" />
+
+    <script src="./owlcarousel/jquery.min.js"></script>
+    <script src="./owlcarousel/js/owl.carousel.min.js"></script>
+</head>
+
+
+<body>
+    <div id="Main">
+        <div class="header">
+            <div class="logo">
+                <a href="https://www.facebook.com/thehindu" class="fb" title="Connect on Facebook" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </div>
+            <div class="logo">
+                <a href="https://twitter.com/The_Hindu" class="tw" title="Follow on Twitter" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </div>
+            <div class="logo">
+                <a href="https://www.linkedin.com/school/the-hindu/" class="in" title="Connect on Linkedin"
+                    target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </div>
+            <div class="logo">
+                <a href="https://instagram.com/the_hindu/?ref=badge" class="ins" title="Follow on Instagram"
+                    target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </div>
+            <div class="logo">
+                <a target="_blank" href="https://www.thehindu.com/newsletter-subscription/" class="usernews"
+                    title="Subscribe to our Newsletter">
+                    <i class="fa fa-envelope"></i>
+                </a>
+            </div>
+            <div class="logo">
+                <a href="https://www.thehindu.com/social/" class="user androidos"
+                    title="Install our Android &amp; iOS apps">
+                    <i class="fa fa-mobile"></i>
+                </a>
+            </div>
+            <div class="logo-e">
+                <a href="https://epaper.thehindu.com/?utm_source=thehindu&amp;utm_medium=header&amp;utm_campaign=landingpage"
+                    class="ePaper" title="ePaper">ePaper</a>
+            </div>
+            <div class="Search-bar">
+                <form class="Search-in">
+                    <input class="search" type="text" data-type="search" title="Please enter your search text"
+                        placeholder="Search here" />
+                    <button class="fa fa-search search-selection-icon"></button>
+                </form>
+            </div>
+        </div>
+        <div class="the-hindu">
+            <a href="https://www.thehindu.com/">
+                <img src="	https://www.thehindu.com/theme/images/th-online/logo.png" alt="" />
+            </a>
+            <p class="hidden-xs">
+                <span id="latestnews-top-title"><a class="same" href="/latest-news/">LATEST NEWS</a></span>
+                <span id="todaysdate">Monday, May 2, 2022</span>
+                <span class="today-paper"><a class="same"
+                        href="https://epaper.thehindu.com/?utm_source=Hindu&amp;utm_medium=Menu&amp;utm_campaign=Header">E-PAPER</a></span>
+                <span id="weather"></span>
+            </p>
+        </div>
+
+        <div class="nav-bar">
+            <div class="menu-icon">
+                <a href="javascript:void(0)" id="menu-button">MENU<i class="fa-solid fa-bars"></i></a>
+            </div>
+            <div class="main-menu">
+                <ul>
+                    <li class="active">
+                        <a class="same2" href="https://www.thehindu.com/todays-paper/" itemprop="name"
+                            content="Today's Paper">
+                            Today's Paper
+                            <meta itemprop="url" content="https://www.thehindu.com/todays-paper/" />
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="https://www.thehindu.com/news/" itemprop="name" content="News" class="dropdown-toggle"
+                            data-toggle="dropdown">
+                            News
+                            <meta itemprop="url" content="https://www.thehindu.com/news/" />
+                            <b class="caret"></b>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="https://www.thehindu.com/opinion/" itemprop="name" content="Opinion"
+                            class="dropdown-toggle" data-toggle="dropdown">
+                            Opinion
+                            <meta itemprop="url" content="https://www.thehindu.com/opinion/" />
+                            <b class="caret"></b>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="https://www.thehindu.com/business/" itemprop="name" content="Business"
+                            class="dropdown-toggle" data-toggle="dropdown">
+                            Business
+                            <meta itemprop="url" content="https://www.thehindu.com/business/" />
+                            <b class="caret"></b>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="https://www.thehindu.com/sport/" itemprop="name" content="Sport"
+                            class="dropdown-toggle" data-toggle="dropdown">
+                            Sport
+                            <meta itemprop="url" content="https://www.thehindu.com/sport/" />
+                            <b class="caret"></b>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="https://www.thehindu.com/entertainment/" itemprop="name" content="Entertainment"
+                            class="dropdown-toggle" data-toggle="dropdown">
+                            Entertainment
+                            <meta itemprop="url" content="https://www.thehindu.com/entertainment/" />
+                            <b class="caret"></b>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a class="same2"
+                            href="https://crossword.thehindu.com/?utm_source=thehindu&amp;utm_medium=mainmenu"
+                            itemprop="name" content="Crossword+" target="_blank">
+                            Crossword+
+                            <meta itemprop="url"
+                                content="https://crossword.thehindu.com/?utm_source=thehindu&amp;utm_medium=mainmenu" />
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a class="same2" href="https://www.thehindu.com/sci-tech/science/" itemprop="name"
+                            content="Science">
+                            Science
+                            <meta itemprop="url" content="https://www.thehindu.com/sci-tech/science/" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="subsEntrymenu hidden-sm hidden-xs" style="display: block">
+                <button class="btn1"><a class="btn1" href="#">GET TRAIL</a></button>
+                <button class="btn2"><a href="#"></a>SUBSCRIBE NOW</button>
+                <button class="btn3"><a href="#"></a>LOG IN</button>
+            </div>
+        </div>
+        <div class="nav-trending">
+            <span class="head-trending">TRENDING TODAY</span>
+            <ul class="list-in line">
+                <li>
+                    <a href="https://www.thehindu.com/topic/russia-ukraine-crisis/">
+                        Russia-Ukraine Crisis
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.thehindu.com/topic/coronavirus/">
+                        Coronavirus
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.thehindu.com/tag/1687-1683-1569/"> IPL </a>
+                </li>
+                <li class="housing">
+                    <a href="https://www.thehindu.com/housing-real-estate-india/"><img
+                            src="https://www.thehindu.com/theme/images/th-online/housing.png"
+                            data-src-template="https://www.thehindu.com/theme/images/th-online/housing.png"
+                            alt="Housing" class="" /></a>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="main-2" style="margin-left: 130px">
+                <div class="fstnews">
+                    <a href="https://www.thehindu.com/news/national/fir-filed-against-raj-thackeray-for-may-1-speech/article65379477.ece?homepage=true"
+                        class="ls50x3Bluebg-img focuspoint"><img
+                            src="https://www.thehindu.com/incoming/gp1ae4/article65379958.ece/alternates/LANDSCAPE_320/PTI05_03_2022_000318B.jpg"
+                            data-src-template="https://www.thehindu.com/incoming/gp1ae4/article65379958.ece/alternates/BASE_LANDSCAPE/PTI05_03_2022_000318B.jpg"
+                            data-original="https://www.thehindu.com/incoming/gp1ae4/article65379958.ece/alternates/BASE_LANDSCAPE/PTI05_03_2022_000318B.jpg"
+                            data-device-variant="LANDSCAPE~LANDSCAPE~LANDSCAPE~LANDSCAPE"
+                            alt="Security beefed up outside Maharashtra Navnirman Sena (MNS) president Raj Thackeray’s residence in Mumbai on May 3, 2022."
+                            title="Security beefed up outside Maharashtra Navnirman Sena (MNS) president Raj Thackeray’s residence in Mumbai on May 3, 2022."
+                            class="" width="100%" height="100%" /></a>
+                    <h1 class="words">
+                        <a href=" https://www.thehindu.com/news/national/fir-filed-against-raj-thackeray-for-may-1-speech/article65379477.ece?homepage=true"
+                            title="Updated: May 4, 2022 04:13 IST
+                    Published: May 3, 2022 22:15 IST">
+                            FIR against Raj ThackerayD for May 1 speech, police out in
+                            strength in Maharashtra</a>
+                    </h1>
+                    <a class="main-s-word-p" href="https://www.thehindu.com/profile/author/The-Hindu-Bureau-14355/"
+                        class="person-name lnk">The Hindu Bureau</a>
+                    <p class="hidden-xs white-text main-s-word">
+                        Undeterred by the FIR, MNS chief asks to “play Hanuman Chalisa if
+                        you hear loudspeakers blaring azaan”
+                    </p>
+                </div>
+            </div>
+            <div class="main-2-2">
+                <div class="story-card">
+                    <a href="#"><img class="s-img"
+                            src="https://www.thehindu.com/incoming/n0i6r4/article65381233.ece/alternates/SQUARE_115/IMG_2021-11-02T065438Z_1_2_1_QL9O0AK7.jpg" /></a>
+                    <div>
+                        <span><a class="s-card" href="#">MARKETS</a></span>
+                        <h2>
+                            <a class="s-words" href="#">
+                                Sensex plummets 1,300 points as RBI wrongfoots markets;
+                                investors lose ₹6.27 lakh crore
+                            </a>
+                        </h2>
+                    </div>
+                </div>
+                <div class="story-card">
+                    <a href="#"><img class="s-img"
+                            src="https://www.thehindu.com/incoming/hg1kyo/article65380937.ece/alternates/SQUARE_115/2022-05-04T051516Z_1669375208_RC2CKS9DR2MD_RTRMADP_3_INDIA-LIC-IPO.JPG" /></a>
+                    <div>
+                        <span><a class="s-card" href="#">MARKETS</a></span>
+                        <h2>
+                            <a class="s-words" href="#">
+                                LIC’s IPO in an IPO weary market: what it entails
+                            </a>
+                        </h2>
+                    </div>
+                </div>
+                <div class="story-card">
+                    <a href="#"><img class="s-img"
+                            src="https://www.thehindu.com/incoming/43iwvd/article65381597.ece/alternates/SQUARE_115/57_Metro_Boria_Majumdar_19_11_Del.jpg" /></a>
+                    <div>
+                        <span><a class="s-card" href="#">CRICKET</a></span>
+                        <h2>
+                            <a class="s-words" href="#">
+                                BCCI bans journalist Boria Majumdar for 2 years in Wriddhiman
+                                Saha case
+                            </a>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-2-3">
+            <div style="height: 200px; width: 620px">
+                <div class="story-card">
+                    <a href="#"><img class="s-img"
+                            src="https://www.thehindu.com/incoming/srdy5g/article65380962.ece/alternates/SQUARE_115/Russia_Putin_61897.jpg-5df0d.jpg" /></a>
+                    <div>
+                        <span><a class="s-card" href="#">OPINION COMMENT</a></span>
+                        <h2>
+                            <a class="s-words" href="#"> End of the age of soft power? </a>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <div style="height: 200px; margin-left: 20px">
+                <div class="story-card">
+                    <a href="#"><img class="s-img"
+                            src="https://www.thehindu.com/incoming/s5th3m/article65381475.ece/alternates/SQUARE_115/CCI_UDHindu_KSL_UQT47STIG_R1529852301_1_ff318df6-1a6d-4e4d-85fd-edffa33a3dee.jpg" /></a>
+                    <div>
+                        <span><a class="s-card" href="#">NATIONAL</a></span>
+                        <h2>
+                            <a class="s-words" href="#">
+                                In 2020, Ladakh recorded highest sex ratio in the country,
+                                Manipur lowest
+                            </a>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- First carousel -->
+        <section class="carousel__section">
+            <div id="first">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="child__items">
+                            <div class="left_part">
+                                <p>1</p>
+                            </div>
+
+                            <div class="right_part">
+                                <a href="#">
+                                    'Kindly don’t patronize us...we know what to do'
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="child__items">
+                            <div class="left_part">
+                                <p>2</p>
+                            </div>
+
+                            <div class="right_part">
+                                <a href="#">
+                                    '
+                                    Australian, Solomon Islands Ministers discuss China pact'
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="child__items">
+                            <div class="left_part">
+                                <p>3</p>
+                            </div>
+
+                            <div class="right_part">
+                                <a href="#">
+                                    '
+                                    TMC to set up ad hoc committee in Goa to strengthen base in state'
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="child__items">
+                            <div class="left_part">
+                                <p>4</p>
+                            </div>
+
+                            <div class="right_part">
+                                <a href="#">
+                                    'Kindly don’t patronize us...we know what to do'
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="child__items">
+                            <div class="left_part">
+                                <p>5</p>
+                            </div>
+
+                            <div class="right_part">
+                                <a href="#">
+                                    '
+                                    Madrid Open: Nadal staying positive despite QF defeat'
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="child__items">
+                            <div class="left_part">
+                                <p>6</p>
+                            </div>
+
+                            <div class="right_part">
+                                <a href="#">
+                                    '
+                                    Avinash Sable breaks 30-year-old national record in 5000m'
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="child__items">
+                            <div class="left_part">
+                                <p>7</p>
+                            </div>
+
+                            <div class="right_part">
+                                <a href="#">
+                                    '
+                                    Over 190 crore COVID-19 vaccine doses administered across India'
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="child__items">
+                            <div class="left_part">
+                                <p>8</p>
+                            </div>
+
+                            <div class="right_part">
+                                <a href="#">
+                                    '
+                                    North Korea fires possible ballistic missile: Japan military, S Korea media'
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="child__items">
+                            <div class="left_part">
+                                <p>9</p>
+                            </div>
+
+                            <div class="right_part">
+                                <a href="#">
+                                    '
+                                    Number of Electric Vehicles in India to reach 3 crore in two years, says Gadkari'
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="child__items">
+                            <div class="left_part">
+                                <p>10</p>
+                            </div>
+
+                            <div class="right_part">
+                                <a href="#">
+                                    '
+                                    NHRC notice to Telangana govt, DGP in suspected honour killing case'
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="child__items">
+                            <div class="left_part">
+                                <p>11</p>
+                            </div>
+
+                            <div class="right_part">
+                                <a href="#">
+                                    '
+                                    Indian climber dies during summit push on Mount Kanchenjunga'
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="child__items">
+                            <div class="left_part">
+                                <p>12</p>
+                            </div>
+
+                            <div class="right_part">
+                                <a href="#">
+                                    '
+                                    Alcaraz overpowers Nadal at Madrid Open'
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="just-news" style="width: 68%; margin-left: 130px; display: flex">
+            <div style="height: 200px; width: 570px">
+                <div class="story-card">
+                    <a href="#"><img class="s-img"
+                            src="https://www.thehindu.com/incoming/zb5e0j/article65381139.ece/alternates/SQUARE_115/IMG_23TH-P_2_1_8I9P9GSL.jpg" /></a>
+                    <div>
+                        <span><a class="s-card" href="#">NATIONAL</a></span>
+                        <h2>
+                            <a class="s-words" href="#">
+                                Perarivalan’s mercy plea: SC disagrees with Centre’s
+                                suggestion that court should wait for President to decide
+                            </a>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div style="height: 200px; margin-left: 100px">
+                <div class="story-card">
+                    <a href="#"><img class="s-img"
+                            src="https://www.thehindu.com/news/national/tamil-nadu/happi6/article65381248.ece/alternates/SQUARE_115/stalin.jpg" /></a>
+                    <div>
+                        <span><a class="s-card" href="#">TAMIL NADU</a></span>
+                        <h2>
+                            <a class="s-words" href="#">
+                                Governor has forwarded NEET exemption Bill to Centre, Stalin
+                                tells Assembly
+                            </a>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="covidParentCls-1">
+                <iframe class="iframeinside"
+                    src="https://www.thehindu.com/static/content/covid/covidfullwidth.html?&amp;output=embed&amp;embed&amp;update"
+                    style="height: 40px; margin-left: 300px; border: 0" width="50%"></iframe>
+            </div>
+
+            <iframe class="covidParentCls-2"
+                src="https://statsofindia.in/embed/covid-vacccination/?embed=widget&amp;url=https://www.thehindu.com/coronavirus/"></iframe>
+        </div>
+    </div>
+
+
+
+    <!-- Carousel heading -->
+    <div class="section__heading">
+        <h3>Top Picks</h3>
+        <div class="horizontal__line"></div>
+    </div>
+
+
+
+    <!-- Carousel Section -->
+    <section class="second_carousel">
+        <div id="second">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="https://www.thehindu.com/incoming/46bryi/article65388126.ece/alternates/LANDSCAPE_230/tretrapod_02.jpg"
+                        alt="demo img" class="carousel__item_image" />
+
+                    <div class="inner_sec_carousel">
+                        <a href="#" class="first_anchor_tag">Cyclonic storm brewing over Bay of Bengal, Odisha on
+                            alert</a>
+                        <a href="#" class="second_anchor_tag">Satyasundar Barik</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="https://www.thehindu.com/news/national/other-states/wsclwu/article61895826.ece/alternates/LANDSCAPE_320/Assammeghalayaborder"
+                        alt="demo img" class="carousel__item_image" />
+
+                    <div class="inner_sec_carousel">
+                        <a href="#" class="first_anchor_tag">
+
+                            Is the Assam-Meghalaya agreement a viable template for resolving North-East border disputes?
+                            | In Focus podcast</a>
+                        <a href="#" class="second_anchor_tag">G. Sampath</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="https://www.thehindu.com/todays-paper/tp-in-school/pvh9p1/article52950485.ece/alternates/LANDSCAPE_320/04-ISTB-NOVEMBEGHJ4SG3IE2jpgjpg"
+                        alt="demo img" class="carousel__item_image" />
+
+                    <div class="inner_sec_carousel">
+                        <a href="#" class="first_anchor_tag">
+
+                            Daily Quiz | Marxist revolutionaries</a>
+                        <a href="#" class="second_anchor_tag">Ranjani Srinivasan</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="https://www.thehindu.com/entertainment/movies/vlxkbi/article65387811.ece/alternates/LANDSCAPE_320/moonnn.jpeg"
+                        alt="demo img" class="carousel__item_image" />
+
+                    <div class="inner_sec_carousel">
+                        <a href="#" class="first_anchor_tag">
+
+                            ‘Moon Knight’ Season 1 review: Oscar Issac revels in metaphysical meditation of mind-forged
+                            manacles</a>
+                        <a href="#" class="second_anchor_tag">Mini Anthikad Chhibber</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="https://www.thehindu.com/incoming/tk4h6e/article65387529.ece/alternates/LANDSCAPE_320/2022-05-05T184336Z_663629556_RC221U9BUV58_RTRMADP_3_SPACE-EXPLORATION-SPACEX-ISS.JPG"
+                        alt="demo img" class="carousel__item_image" />
+
+                    <div class="inner_sec_carousel">
+                        <a href="#" class="first_anchor_tag">
+
+                            SpaceX brings 4 astronauts home with midnight splashdown</a>
+                        <a href="#" class="second_anchor_tag">AP</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="https://www.thehindu.com/incoming/4sqcl/article65372456.ece/alternates/LANDSCAPE_320/6751_21_4_2022_11_12_4_3_03_WEATHER_SGR_21_04_2022.JPG"
+                        alt="demo img" class="carousel__item_image" />
+
+                    <div class="inner_sec_carousel">
+                        <a href="#" class="first_anchor_tag">
+
+                            Pune NGO to boost ‘border tourism’ in Kashmir</a>
+                        <a href="#" class="second_anchor_tag">Shoumojit Banerjee</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="https://www.thehindu.com/sci-tech/science/r8lexk/article65384245.ece/alternates/LANDSCAPE_320/Sun.jpg"
+                        alt="demo img" class="carousel__item_image" />
+
+                    <div class="inner_sec_carousel">
+                        <a href="#" class="first_anchor_tag">
+
+                            Science for All | The particle that helps the Sun burn</a>
+                        <a href="#" class="second_anchor_tag">Shubashree Desikan</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="https://www.thehindu.com/incoming/jtwr1/article65384979.ece/alternates/LANDSCAPE_320/BUDALUR%20HOUSE1.jpg"
+                        alt="demo img" class="carousel__item_image" />
+
+                    <div class="inner_sec_carousel">
+                        <a href="#" class="first_anchor_tag">
+
+                            When an Adi Dravida hostel functioned in an agraharam</a>
+                        <a href="#" class="second_anchor_tag">B. Kolappan</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="https://www.thehindu.com/incoming/wbjsuc/article65386298.ece/alternates/LANDSCAPE_320/Vishali.jpg"
+                        alt="demo img" class="carousel__item_image" />
+
+                    <div class="inner_sec_carousel">
+                        <a href="#" class="first_anchor_tag">
+
+                            From Green Bucks to Green Fields</a>
+                        <a href="#" class="second_anchor_tag">
+                            From Green Bucks to Green Fields</a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="https://www.thehindu.com/sport/tennis/pujgu2/article65385639.ece/alternates/LANDSCAPE_320/AP04_20_2022_000224B.jpg"
+                        alt="demo img" class="carousel__item_image" />
+
+                    <div class="inner_sec_carousel">
+                        <a href="#" class="first_anchor_tag">
+
+                            Is it possible to separate sports and politics? | The Hindu Parley podcast</a>
+                        <a href="#" class="second_anchor_tag">N. Sudarshan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="opinion_head_div" >
+        <div class="opinion_text"><a href="#"><h2>Opinion</h2></a></div>
+        <div class="mid_line" ></div>
+        <div class="see_all"><a href="#">SEE ALL</a></div>
+    </section>
+    
+    <section class="opinion_newses">
+        <div class="opinion_img_div">
+            <div class="img_news_" ><a href="#"><img  src="https://www.thehindu.com/theme/images/th-online/editorLogo.png" alt=""></a></div>
+            <div class="opinion_text_news"><a href="#" ><p>EDITORIAL</p></a>
+                <a href="#"><p >Cowed down: On the need for strict anti-lynching laws</p></a>
+            </div>
+            <div class="opinion_text_news"><a href="#" ><p >EDITORIAL</p></a>
+                <a href="#" ><p >Overcoming differences: On India’s new push for stronger ties with Europe</p></a>
+            </div>
+        </div>
+        
+        <div class="next_opinion_news">
+            <div class="row_one">
+            <div class="story-card" ">
+                <a href="#"><img class="s-img"
+                        src="https://www.thehindu.com/incoming/t4mipw/article65394544.ece/alternates/SQUARE_115/Loud%20Speaker_05.jpg" /></a>
+                <div>
+                    <span><a class="s-card" href="#">LEAD</a></span>
+                    <h2>
+                        <a class="s-words" href="#">
+                            Turning down the volume on a call to prayer
+                        </a>
+                    </h2>
+                    <a href="#" class="s_name"  >ZIYA US SALAM</a>
+                </div>
+            </div>
+
+            <div class="big_one" >
+                <span ><a href="#">CARTOON</a></span>
+                <p >VIEW ALL</p>
+                <a href="#"><img class="big_img" src="https://www.thehindu.com/opinion/cartoon/23w9s3/article65357813.ece/alternates/LANDSCAPE_560/OnTheDraw.JPG" /></a>
+             </div>
+            </div>
+            <div class="big_one_cmnt" >
+                <div class="story-card" >
+                    <a href="#"><img class="s-img"
+                            src="https://www.thehindu.com/opinion/op-ed/uf4eaw/article65394822.ece/alternates/SQUARE_115/iStock-183891706.jpg" /></a>
+                    <div>
+                        <span><a class="s-card" href="#">COMMENT</a></span>
+                        <h2>
+                            <a class="s-words" href="#">
+                                India’s judiciary and the slackening cog of trust
+                            </a>
+                        </h2>
+                        <a href="#" class="s_name"  >VANI S. KULKARNI</a><br>
+                        <a href="#" class="s_name"  >VEENA S. KULKARNI</a>
+                    </div>
+                </div>
+
+                <div class="story-card" style="">
+                    <a href="#"><img class="s-img"
+                            src="https://www.thehindu.com/incoming/l4dpc5/article65394646.ece/alternates/SQUARE_115/23_Jamia_Protest_16_12_Del.jpg" /></a>
+                    <div>
+                        <span><a class="s-card" href="#">COMMENT</a></span>
+                        <h2>
+                            <a class="s-words" href="#">
+                                The multiple crises in Indian universities
+                            </a>
+                        </h2>
+                        <a href="#" class="s_name">FEROZ VARUN GANDHI</a>
+                    </div>
+                </div>
+
+                <div class="story-card" style="">
+                    <a href="#"><img class="s-img"
+                            src="https://www.thehindu.com/incoming/ejbvb/article65395293.ece/alternates/SQUARE_115/2021-10-20T092300Z_126469652_RC2LDQ9UZJ9Z_RTRMADP_3_GLOBAL-OIL-REFINERIES.JPG" /></a>
+                    <div>
+                        <span><a class="s-card" href="#">COMMENT</a></span>
+                        <h2>
+                            <a class="s-words" href="#">
+                                The government in business
+                            </a>
+                        </h2>
+                        <a href="#" class="s_name">TRILOCHAN SASTRY</a>
+                    </div>
+                </div>
+
+            </div>
+         </div>
+        
+    </section>
+    <section class="bottom_footer">
+        <div class="nav-trending"  >
+            <span class="head-trending">TRENDING TODAY</span>
+            <ul class="list-in line">
+                <li>
+                    <a href="https://www.thehindu.com/topic/russia-ukraine-crisis/">
+                        Russia-Ukraine Crisis
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.thehindu.com/topic/coronavirus/">
+                        Coronavirus
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.thehindu.com/tag/1687-1683-1569/"> IPL </a>
+                </li>
+                <li class="housing">
+                    <a href="https://www.thehindu.com/housing-real-estate-india/"><img
+                            src="https://www.thehindu.com/theme/images/th-online/housing.png"
+                            data-src-template="https://www.thehindu.com/theme/images/th-online/housing.png"
+                            alt="Housing" class="" /></a>
+                </li>
+            </ul>
+        </div>
+        <a style="float: right;" href="https://www.thehindu.com/" class="footer-home-page-icon right"><i class="fa fa-home hidden-xs"></i></a>
+    </section>    
+
+    <section class="bottom_nav">
+        <div class="header">
+            <div class="logo">
+                <a href="https://www.facebook.com/thehindu" class="fb" title="Connect on Facebook" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </div>
+            <div class="logo">
+                <a href="https://twitter.com/The_Hindu" class="tw" title="Follow on Twitter" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </div>
+            <div class="logo">
+                <a href="https://www.linkedin.com/school/the-hindu/" class="in" title="Connect on Linkedin"
+                    target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </div>
+            <div class="logo">
+                <a href="https://instagram.com/the_hindu/?ref=badge" class="ins" title="Follow on Instagram"
+                    target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </div>
+            <div class="logo">
+                <a target="_blank" href="https://www.thehindu.com/newsletter-subscription/" class="usernews"
+                    title="Subscribe to our Newsletter">
+                    <i class="fa fa-envelope"></i>
+                </a>
+            </div>
+            <div class="logo">
+                <a href="https://www.thehindu.com/social/" class="user androidos"
+                    title="Install our Android &amp; iOS apps">
+                    <i class="fa fa-mobile"></i>
+                </a>
+            </div>
+            <div class="logo-e">
+                <a href="https://epaper.thehindu.com/?utm_source=thehindu&amp;utm_medium=header&amp;utm_campaign=landingpage"
+                    class="ePaper" title="ePaper">ePaper</a>
+            </div>
+            <div class="Search-bar">
+                <form class="Search-in">
+                    <input class="search" type="text" data-type="search" title="Please enter your search text"
+                        placeholder="Search here" />
+                    <button class="fa fa-search search-selection-icon"></button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+    <section class="bottom_text">
+
+
+    </section>
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
